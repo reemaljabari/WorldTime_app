@@ -5,6 +5,7 @@ import 'package:worldwide_project/pages/home.dart';
 import 'package:worldwide_project/pages/loading.dart';
 
 void main()=> runApp( MaterialApp(
+  //routing between pages
   debugShowCheckedModeBanner: false ,
   initialRoute: '/',
   routes:{  '/': (context)=> Loading(),
